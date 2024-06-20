@@ -17,7 +17,6 @@ header {
     box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
 }
 
-
 header h1 {
     font-size: 35px;
     margin: 5;
@@ -110,11 +109,26 @@ main {
     display: none;
 }
 
-
 footer {
     background-color: #333; 
     color: #FFFFFF;
     text-align: center;
     padding: 10px 0;
     width: 100%;
+}
+
+/* Media Queries */
+
+/* Pantallas medianas (tablets) */
+@media (max-width: 768px) {
+    .carrera-box {
+        width: calc(50% - 20px); /* 2 columnas en pantallas medianas */
+    }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .carrera-box {
+        width: calc(100% - 20px); /* 1 columna en pantallas pequeñas */
+    }
 }
