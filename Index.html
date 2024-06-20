@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Orientación para Carreras</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="mostrarSeccion('acerca')">Acerca de</a></li>
+                <li><a href="#" onclick="mostrarSeccion('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <div class="carrera-container">
+                <section id="peritoContador" class="carrera-box" onclick="toggleInfo('peritoContador')">
+                    <h2>Perito Contador</h2>
+                    <div id="peritoContador-info" class="carrera-info">
+                        <img src="https://png.pngtree.com/png-vector/20240326/ourmid/pngtree-accountant-and-his-finances-concept-art-png-image_12203896.png" alt="Imagen de Perito Contador">
+                        <p>Es una carrera relacionada con los números, enfocada a la enseñanza de la contabilidad a través de inventarios y libros diarios.</p>
+                    </div>
+                </section>
+                
+                <section id="administracion" class="carrera-box" onclick="toggleInfo('administracion')">
+                    <h2>Administración de Empresas</h2>
+                    <div id="administracion-info" class="carrera-info">
+                        <img src="https://www.un.edu.mx/wp-content/uploads/2023/05/Universidad-del-Norte-Gran-demanda-de-profesionales-empresarialessubtitulo.png" alt="Imagen de Administración de Empresas">
+                        <p>Es una carrera dedicada a la enseñanza de saber cómo administrar a la hora de emprender una empresa, o trabajar para una, en esta carrera se puede ver también la contabilidad y las cuentas.</p>
+                    </div>
+                </section>
+                
+                <section id="electronica" class="carrera-box" onclick="toggleInfo('electronica')">
+                    <h2>Perito en Electrónica y Dispositivos Digitales</h2>
+                    <div id="electronica-info" class="carrera-info">
+                        <img src="https://un.edu.mx/wp-content/uploads/2021/08/Universidad-del-Norte-Que-es-lo-que-hace-un-ingeniero-en-tecnologia-electronica-subtitulo.png" alt="Imagen de Perito en Electrónica y Dispositivos Digitales">
+                        <p>Es una carrera enfocada en la creación de circuitos electrónicos, también en la reparación y la modificación de los mismos circuitos, también se aprende a cómo darle mantenimiento a las computadoras, parte de programación, también sobre telefonía en algunos casos, y sobre el manejo de varios softwares (programas) para simulación de proyectos electrónicos.</p>
+                    </div>
+                </section>
+                
+                <section id="dibujoTecnico" class="carrera-box" onclick="toggleInfo('dibujoTecnico')">
+                    <h2>Dibujo Técnico en Construcción</h2>
+                    <div id="dibujoTecnico-info" class="carrera-info">
+                        <img src="https://static.vecteezy.com/system/resources/previews/026/983/644/original/one-continuous-line-drawing-team-of-young-architects-presenting-construction-sketch-draft-blueprint-design-to-manager-building-architecture-business-concept-single-line-draw-design-illustration-png.png" alt="Imagen de Dibujo Técnico en Construcción">
+                        <p>Es una carrera relacionada al dibujo de planos para obras de construcción, también la enseñanza del uso de herramientas como lo son AUTOCAD y Sketchup.</p>
+                    </div>
+                </section>
+                
+                <section id="bachComputacion" class="carrera-box" onclick="toggleInfo('bachComputacion')">
+                    <h2>Bachillerato en Computación</h2>
+                    <div id="bachComputacion-info" class="carrera-info">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWnYQDyGnD15TJw7mmMBBvoE7jru-ijDeacA&s" alt="Imagen de Bachillerato en Computación">
+                        <p>Es una carrera de dos años donde se aprende el uso básico de la computación, incluyendo programas como Pseint para programar.</p>
+                    </div>
+                </section>
+                
+                <section id="magisterio" class="carrera-box" onclick="toggleInfo('magisterio')">
+                    <h2>Magisterio de Educación Bilingüe Intercultural</h2>
+                    <div id="magisterio-info" class="carrera-info">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM2d7NHvifGBRd9fyiLhxUAC1f_fCa89QemQ&s" alt="Imagen de Magisterio de Educación Bilingüe Intercultural">
+                        <p>Es una carrera orientada a la formación de maestras para el nivel preprimario, incluyendo enseñanza de tres idiomas, organización y dinámicas para clases con niños.</p>
+                    </div>
+                </section>
+
+                <section id="Mecánica" class="carrera-box" onclick="toggleInfo('Mecánica')">
+                    <h2>Mecanica Automotriz</h2>
+                    <div id="Mecánica-info" class="carrera-info">
+                        <img src="https://ft.umsa.bo/documents/339504/0/logoMAZ+%281%29.png/2b00be24-3463-c879-7a44-60a295e2dab2?t=1680235297060" alt="Imagen de Magisterio de Educación Bilingüe Intercultural">
+                        <p>Es una carrera orientada a la formación de maestras para el nivel preprimario, incluyendo enseñanza de tres idiomas, organización y dinámicas para clases con niños.</p>
+                    </div>
+                </section>
+                
+                
+            </div>
+        </section>
+
+        <section id="acerca" style="display: none;">
+            <h2>Acerca de</h2>
+            <p>Pagina creada por Randall Alvarez,  </p>
+            <p>estudiante de sexto perito en Electrónica y Dispositivos Digitales, </p>
+            <p>con el fin de orientar a jóvenes que están a punto de empezar una carrera, </p>
+            <p>y puedan tomar una mejor decisión para su futuro.</p>
+           
+        </section>
+        
+        <section id="contacto" style="display: none;">
+            <h2>Contacto</h2>
+            <p>Correo: r44421063@gmail.com</p>
+            <p>Teléfono: +502 4224 1159</p>
+            <p>Facebook: Randall Alvarez</p>
+            <p>Instagram: oc_randall_</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function mostrarSeccion(seccion) {
+            var secciones = document.querySelectorAll('main > section');
+            secciones.forEach(function(s) {
+                s.style.display = 'none';
+            });
+            
+            document.getElementById(seccion).style.display = 'block';
+        }
+
+        function toggleInfo(carrera) {
+            var infoDiv = document.getElementById(carrera + '-info');
+            if (infoDiv.style.display === 'none' || infoDiv.style.display === '') {
+                infoDiv.style.display = 'block';
+            } else {
+                infoDiv.style.display = 'none';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            mostrarSeccion('inicio');
+        });
+    </script>
+</body>
+</html>
