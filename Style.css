@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Cambiado a un azul claro */
+    background-color: #f0f8ff; 
     color: #333;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 /* Estilo del encabezado */
 header {
-    background-color: #ff6f61; /* Cambiado a un naranja llamativo */
+    background-color: #ff6f61; 
     color: white;
     padding: 20px;
 }
@@ -24,12 +24,12 @@ header h1 {
 }
 
 header img.logo {
-    max-height: 60px; /* Ajusta el tamaño según sea necesario */
+    max-height: 60px;
 }
 
 /* Estilos de la navegación */
 nav {
-    background-color: #ffb74d; /* Cambiado a un naranja más suave */
+    background-color: #ffb74d;
     padding: 10px;
 }
 
@@ -54,10 +54,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Estilo de la sección principal */
+
 main {
     padding: 20px;
-    background-color: #fff9c4; /* Cambiado a un amarillo claro */
+    background-color: #fff9c4;
 }
 
 .carrera-container {
@@ -115,18 +115,15 @@ footer {
     width: 100%;
 }
 
-/* Media Queries */
 
-/* Pantallas medianas (tablets) */
 @media (max-width: 768px) {
     .carrera-box {
-        width: calc(50% - 20px); /* 2 columnas en pantallas medianas */
+        width: calc(50% - 20px);
     }
 }
 
-/* Pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
     .carrera-box {
-        width: calc(100% - 20px); /* 1 columna en pantallas pequeñas */
+        width: calc(100% - 20px); 
     }
 }
