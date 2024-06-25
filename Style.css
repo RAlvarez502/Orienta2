@@ -10,7 +10,7 @@ body {
     color: #e2e2e2;
     box-sizing: border-box;
     width: 100%;
-    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+    overflow-x: hidden; 
 }
 
 header {
@@ -171,7 +171,7 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+    overflow-x: hidden; 
 }
 
 #root {
