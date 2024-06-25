@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ORIENTA2</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="additional-styles.css">
 </head>
 <body>
     <div id="root">
     <header>
         <div class="header-content">
-            <img src="" alt="Logo del Sitio" class="logo">  <h1>Orientación para Carreras</h1>
+            <img src="" alt="Logo del Sitio" class="logo">  
+            <h1>Orientación para Carreras</h1>
         </div>
         <nav>
             <ul>
@@ -22,191 +24,239 @@
     </header>
     <main>
         <section id="inicio">
-            <h2>Inicio</h2>
-            <div class="carrera-container">
-                <section id="peritoContador" class="carrera-box" onclick="toggleInfo('peritoContador')">
-                    <h2>Perito Contador</h2>
-                    <div id="peritoContador-info" class="carrera-info">
-                        <img src="https://png.pngtree.com/png-vector/20240326/ourmid/pngtree-accountant-and-his-finances-concept-art-png-image_12203896.png" alt="Imagen de Perito Contador">
-                        <p>Es una carrera relacionada con los números, enfocada a la enseñanza de la contabilidad a través de inventarios y libros diarios.</p>
-                    </div>
-                </section>
-                
-                <section id="administracion" class="carrera-box" onclick="toggleInfo('administracion')">
-                    <h2>Administración de Empresas/ Gerencia Administrativa</h2>
-                    <div id="administracion-info" class="carrera-info">
-                        <img src="https://www.un.edu.mx/wp-content/uploads/2023/05/Universidad-del-Norte-Gran-demanda-de-profesionales-empresarialessubtitulo.png" alt="Imagen de Administración de Empresas">
-                        <h3>¿Qué es Perito en Gerencia Administrativa?</h3>
-                        <p>Un perito en gerencia administrativa o Administrador es un profesional especializado en la gestión y dirección de empresas u organizaciones. Este rol implica tener conocimientos profundos sobre administración de recursos humanos, finanzas, operaciones, estrategia empresarial y otras áreas clave para el funcionamiento eficiente de una empresa. Los peritos en gerencia administrativa suelen ser responsables de tomar decisiones estratégicas, resolver problemas operativos, optimizar procesos y asegurar el cumplimiento de objetivos organizacionales. Además, pueden actuar como consultores o asesores para mejorar el rendimiento y la eficacia de una empresa.</p>
-                        <h3>¿Cuál es el objetivo de la carrera?</h3>
-                        <p>El objetivo de estudiar la carrera de perito en gerencia administrativa es adquirir los conocimientos y habilidades necesarios para gestionar eficientemente empresas u organizaciones. Algunos de los objetivos específicos incluyen:</p>
-                        <p>•	Capacitación en Gestión Empresarial: Obtener competencias en áreas como administración, finanzas, recursos humanos, operaciones y estrategia empresarial.</p>
-                        <p>•	Desarrollo de Habilidades Directivas: Aprender a liderar equipos, tomar decisiones estratégicas y resolver problemas complejos dentro de una organización.</p>
-                        <p>•	Optimización de Recursos: Aprender a utilizar eficazmente los recursos disponibles para mejorar el rendimiento y la eficiencia organizacional.</p>
-                        <p>•	Adaptación al Entorno Empresarial: Estar preparado para enfrentar los retos del mundo empresarial actual, que incluyen globalización, cambios tecnológicos y dinámicas de mercado.</p>
-                        <p>•	Contribución al Éxito Organizacional: Contribuir al éxito y crecimiento de empresas y organizaciones a través de la aplicación efectiva de principios de gestión y administración.</p> 
-                        <h3>Pensum de la carrera</h3>
-                        <p>•	Administración</p>
-                        <p>•	Mate básica</p>
-                        <p>•	Mate financiera</p>
-                        <p>•	Contabilidad</p>
-                        <p>•	Psicología industrial</p> 
-                        <p>•	Recursos humanos</p>
-                        <p>•	Administración de proyectos</p>
-                        <p>•	Fundamentos de publicidad</p>
-                        <h3>Ventajas</h3>
-                        <p>Estudiar la carrera de perito en gerencia administrativa ofrece varias ventajas significativas:</p>
-                        <p>•	Versatilidad Profesional: Los conocimientos adquiridos son aplicables a una amplia gama de sectores y tipos de organizaciones, lo que brinda flexibilidad en el ámbito laboral. </p>
-                        <p>•	Oportunidades Laborales: Existe una demanda constante de profesionales con habilidades en gestión administrativa, lo que aumenta las oportunidades de empleo en diferentes industrias. </p>
-                        <p>•	Desarrollo de Habilidades Gerenciales: Se desarrollan habilidades directivas como liderazgo, toma de decisiones, resolución de problemas y trabajo en equipo, fundamentales para roles de liderazgo.</p>
-                        <p>•	Potencial de Crecimiento Profesional: Los peritos en gerencia administrativa tienen la oportunidad de avanzar en sus carreras hacia posiciones de mayor responsabilidad y salario dentro de una organización.</p>
-                        <p>•	Contribución al Éxito Organizacional: Al entender y aplicar principios eficaces de gestión, los graduados pueden ayudar a mejorar el desempeño y la eficiencia de las empresas, contribuyendo así a su éxito a largo plazo. </p>
-                        <p>•	Capacidad para Emprender: Los conocimientos en administración y gestión también son fundamentales para aquellos que desean emprender su propio negocio, proporcionando las bases para la planificación estratégica y la gestión efectiva de recursos.</p>
-                        <h3>Desventajas</h3>
-                        <p>Aunque estudiar la carrera de perito en gerencia administrativa tiene numerosas ventajas, también hay algunas desventajas que se deben considerar:</p>
-                        <p>•	Competencia Laboral: Debido a la popularidad de la carrera, el mercado laboral puede ser competitivo, especialmente para roles de alta demanda en empresas prestigiosas o sectores específicos.</p> 
-                        <p>•	Necesidad de Experiencia Práctica: Aunque se adquieren conocimientos teóricos sólidos, algunos empleadores pueden valorar más la experiencia práctica o habilidades específicas que no siempre se enseñan en el aula. </p>
-                        <p>•	Presión por Resultados: En roles de gestión administrativa, se puede enfrentar presión por alcanzar objetivos financieros, mejorar la eficiencia operativa o resolver problemas organizacionales, lo que puede ser estresante.</p>
-                        <p>•	Evolución Tecnológica: Con el rápido avance de la tecnología, los profesionales deben mantenerse actualizados con las últimas herramientas y tendencias digitales, lo que puede requerir aprendizaje continuo fuera del entorno académico.</p>
-                        <p>•	Responsabilidades Gerenciales: A medida que se asciende en la jerarquía organizacional, aumentan las responsabilidades de liderazgo y toma de decisiones estratégicas, lo cual puede ser desafiante y demandante.</p>
-                        <p>•	Sensibilidad a la Economía: La carrera puede verse afectada por fluctuaciones económicas y cambios en el mercado laboral, lo que podría influir en las oportunidades de empleo y crecimiento profesional.</p>
-                    </div>
-                </section>
-                
-                <section id="electronica" class="carrera-box" onclick="toggleInfo('electronica')">
-                    <h2>Perito en Electrónica y Dispositivos Digitales</h2>
-                    <div id="electronica-info" class="carrera-info">
-                        <img src="https://un.edu.mx/wp-content/uploads/2021/08/Universidad-del-Norte-Que-es-lo-que-hace-un-ingeniero-en-tecnologia-electronica-subtitulo.png" alt="Imagen de Perito en Electrónica y Dispositivos Digitales">
-                        <h3>¿Qué es la Electrónica?</h3>
-                        <p>La electrónica es una rama de la ingeniería y la física aplicada que se centra en el estudio y uso de sistemas y dispositivos que controlan el flujo de electrones o partículas cargadas eléctricamente. Esta disciplina abarca desde componentes básicos como resistencias y capacitores hasta sistemas más complejos como microcontroladores y circuitos integrados, jugando un papel crucial en el desarrollo de tecnología moderna.</p>
-                        <h3>¿Cuál es el Objetivo de la Carrera?</h3>
-                        <p>El objetivo principal de la carrera de Perito en Electrónica y Dispositivos Digitales es preparar a los estudiantes para:</p>
-                        <p>•    Comprender y aplicar los principios fundamentales de la electrónica y la digitalización.</p>
-                        <p>•    Diseñar, construir y reparar circuitos y dispositivos electrónicos. </p>
-                        <p>•    Utilizar herramientas y software especializados para el diseño y análisis de sistemas electrónicos.</p>
-                        <p>•    Desarrollar habilidades prácticas y técnicas que les permitan integrarse de manera efectiva en el mercado laboral o continuar con estudios superiores en áreas afines.</p>
-                        <h3>Pensum de la Carrera</h3>
-                        <p>•    Electricidad Básica</p>
-                        <p>•    Electrónica Analógica</p>
-                        <p>•    Reparación de Computadoras</p>
-                        <p>•    Taller de Elecronica Analógica / Digital</p>
-                        <p>•    Electrónica Digital</p> 
-                        <p>•    Introducción a Microprocesadores</p>
-                        <p>•    Matemáticas</p>
-                        <p>•    Inglés</p>
-                        <p>•    Estadítica</p>
-                        <p>•    Tecnología (Computación)</p>
-                        <p>•    Física Fundamental</p>
-                        <h3>Ventajas de la Carrera.</h3>
-                        <p>•    Alta Demanda Laboral: Los peritos en electrónica y dispositivos digitales son solicitados en diversas industrias como telecomunicaciones, manufactura y tecnología.</p>
-                        <p>•    Versatilidad Profesional: Los egresados tienen la capacidad de trabajar en varias áreas, incluyendo mantenimiento de equipos, diseño de sistemas, automatización y soporte técnico.</p>
-                        <p>•    Base para Estudios Superiores: La carrera proporciona una base sólida para continuar con estudios universitarios en ingeniería electrónica, telecomunicaciones o campos relacionados.</p>
-                        <p>•    Desarrollo de Habilidades Prácticas: Los estudiantes adquieren habilidades técnicas y prácticas que son inmediatamente aplicables en el entorno laboral.</p>
-                        <h3>Desventajas de la Carrera</h3>
-                        <p>•    Evolución Tecnológica Rápida: La electrónica es un campo en constante evolución, lo que requiere una actualización continua y capacitación para mantenerse al día.</p>
-                        <p>•    Competencia Laboral: Aunque hay demanda, también existe una alta competencia, lo que puede requerir un esfuerzo adicional para destacarse en el mercado laboral.</p>
-                        <p>•    Inversión en Equipos: La formación en electrónica a menudo requiere acceso a equipos y software especializados, lo cual puede implicar costos adicionales.</p>
-                    </div>
-                </section>
-                
-                <section id="dibujoTecnico" class="carrera-box" onclick="toggleInfo('dibujoTecnico')">
-                    <h2>Dibujo Técnico en Construcción</h2>
-                    <div id="dibujoTecnico-info" class="carrera-info">
-                        <img src="https://static.vecteezy.com/system/resources/previews/026/983/644/original/one-continuous-line-drawing-team-of-young-architects-presenting-construction-sketch-draft-blueprint-design-to-manager-building-architecture-business-concept-single-line-draw-design-illustration-png.png" alt="Imagen de Dibujo Técnico en Construcción">
-                        <p>Es una carrera relacionada al dibujo de planos para obras de construcción, también la enseñanza del uso de herramientas como lo son AUTOCAD y Sketchup.</p>
-                    </div>
-                </section>
-                
-                <section id="bachComputacion" class="carrera-box" onclick="toggleInfo('bachComputacion')">
-                    <h2>Bachillerato en Computación</h2>
-                    <div id="bachComputacion-info" class="carrera-info">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWnYQDyGnD15TJw7mmMBBvoE7jru-ijDeacA&s" alt="Imagen de Bachillerato en Computación">
-                        <p>Es una carrera de dos años donde se aprende el uso básico de la computación, incluyendo programas como Pseint para programar.</p>
-                    </div>
-                </section>
-                
-                <section id="magisterio" class="carrera-box" onclick="toggleInfo('magisterio')">
-                    <h2>Magisterio de Educación Bilingüe Intercultural</h2>
-                    <div id="magisterio-info" class="carrera-info">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM2d7NHvifGBRd9fyiLhxUAC1f_fCa89QemQ&s" alt="Imagen de Magisterio de Educación Bilingüe Intercultural">
-                        <h3>¿Qué es magisterio de educación infantil bilingüe intercultural?</h3>
-                        <p>La Educación Bilingüe Intercultural tiene como propósito brindar a los estudiantes de la Carrera de Magisterio de Educación Infantil Bilingüe Intercultural, una formación que posibilita orientar los aprendizajes de los estudiantes, para su preparación e inserción en una sociedad local diversa y en constante cambio.
-                            La carrera de magisterio está enfocada a la Psicopedagogía, al comportamiento que tienen los niños y niñas, su desarrollo tanto sensorial, cognitivo y motor, todo esto con el fin de enfocarse en la enseñanza de los niños del nivel preprimaria, a lo largo de los años magisterio se ha convertido en una de las carreras fundamentales para la enseñanza, este consta con tres grados conocidos como:  Párvulos uno, Párvulos dos y Párvulos tres.
-                            Magisterio es una carrera en la cual busca la menara de mejorar la enseñanza de los niños, donde a través del juego, cuentos, cantos, competencias e indicadores de logros los niños pueden aprender de forma eficaz y divertida.
-                            También cuenta con un libro o guía la cual se llama CNB, este consta con cinco áreas las cuales son: Educación para la ciencia y la ciudadanía, Destrezas de comunicación y lenguaje, Destrezas de aprendizaje matemático, Educación física y Educación artística. Todo esto nos ayuda a crear nuestras agendas las cuales nos ayudan a impartir y llevar control de nuestras clases, también a ver el progreso de los niños y niñas y ver si las estrategias que han utilizado están funcionando.
-                            </p>
-                        <h3>¿Cuál es su objetivo?</h3>
-                        <p>Busca que los niños y niñas puedan tener una buena enseñanza y que puedan aprender de forma eficaz y divertida, ya que estudios han demostrado que los niños aprenden jugando. Todo con el fin de que el niño pueda aprender y desarrollar sus habilidades. Magisterio es una carrera a la cual se le dedica tiempo, responsabilidad, paciencia y creatividad, ya que estamos a cargo de la enseñanza y formación a los niños.</p>
-                        <h3>Pensum de la carrera o áreas curriculares básicas.</h3>
-                        <p>•Práctica Docente</p>
-                        <p>•Educación Bilingüe </p>
-                        <p>•Psicopedagogía </p>
-                        <p>•Matemática</p>
-                        <p>•Planificación y Evaluación</p> 
-                        <p>•K´iche´ </p>
-                        <p>Entre otras.</p>
-                        <h3>Ventajas de la profesión.</h3>
-                        <p>Contribuir al desarrollo de las futuras generaciones: Los maestros tienen la oportunidad de influir en la Vida de sus estudiantes y guiarlos hacia su éxito académico y personal. De este modo, esta tarea permite a los maestros contribuir al crecimiento y desarrollo de las futuras generaciones.</p>
-                        <p>Estabilidad laboral: Los maestros suelen tener una carrera laboral estable, con un contrato fijo y beneficios adicionales, como seguro médico y pensiones.</p>
-                        <p>Desarrollo profesional: La profesión de maestro permite a estos profesionales involucrarse en una amplia variedad de actividades, como asistir a talleres y conferencias, participar en programas de capacitación, colaborar con otros profesionales de la educación y especializarse en diferentes áreas de conocimiento.</p>
-                        <h3>Desventajas de la profesión.</h3>
-                        <p>Bajos salarios: El pago a los profesionales de la educación en algunos casos está por debajo del sueldo básico. A veces se ven obligados a realizar otros trabajos en su tiempo libre.</p>
-                    </div>
-                </section>
-
-                <section id="Mecánica" class="carrera-box" onclick="toggleInfo('Mecánica')">
-                    <h2>Mecánica Automotriz</h2>
-                    <div id="Mecánica-info" class="carrera-info">
-                        <img src="https://img.freepik.com/foto-gratis/trabajador-servicio-coche-musculoso-reparando-vehiculo_146671-19605.jpg" alt="Imagen de Mecánica Automotriz">
-                       <h3>¿Qué es la Mecánica Automotriz?</h3>
-                        <p>La mecánica automotriz es una disciplina que aplica principios de física y mecánica para generar y transmitir movimiento en vehículos de tracción mecánica. Su importancia se refleja en el diseño de sistemas informáticos para automatizar procesos contables en el sector, lo que permite un control racional de la prestación del servicio. Además, la innovación en sistemas mecatrónicos, como sensores y unidades de control, ha transformado la parte eléctrica-electrónica de los vehículos, mejorando su rendimiento y seguridad.</p>
-                        <h3>¿Qué realiza?</h3>
-                        <p>1.	Estudia las formas de generación y transmisión del movimiento en un vehículo. </p>
-                        <p>2.	Aplica principios propios de la física y la mecánica.</p>
-                        <p>3.	Estudia diversos elementos que conforman la estructura del vehículo.</p>
-                        <h3>Pensum básico de la carrera (cursos).</h3>
-                        <p>- Matemáticas</p>
-                        <p>- Física Fundamental</p>
-                        <p>- Inglés</p>
-                        <p>- Tecnología (computación)</p>
-                        <p>- Mecánica</p>
-                        <h3>Ventajas del Curso.</h3>
-                        <p>- La resolución de problemas: la mecánica Automotriz necesita de mucha destreza en la resolución de problemas de todo tipo, desde los más sencillos, hasta los más complicados, en los cuales el mecánico debe ejercer estrategias, profecionalismo, y sobre todo creatividad para poder resolver los problemas que se presenten. Por lo tanto la mecánica hace a que los futuros mecánicos sean personas que donde haya desorden y los demás vean desastre, ellos vean soluciones y proyectos.</p>
-                        <p>- Rentabilidad: la mecánica Automotriz es un trabajo y negocio sustentable en el cual siempre habrá trabajo y demanda del mismo, ya que los automóviles ya no son un lujo limitado a personas de poder, si no que actualmente cualquier persona puede tener acceso a un vehículo, y por esa misma razón el trabajo en la mecánica, no es difícil de encontrarse.</p>
-                        <p>- Seguimiento de la carrera: luego de haber concluido aa carrera de mecánica Automotriz, se puede seguir varios tipos de carreras en una universidad dependiendo del gusto de la persona, ya que se puede especializar en varias ramas como por ejemplo: Mecánica en Motores Diésel, Mecánica de Aviones, Ingeniería en Mecánica. Etc. </p>
-                    </div>
-                </section>
-                
-                <section id="bachEducación" class="carrera-box" onclick="toggleInfo('bachEducación')">
-                    <h2>Bachillerato en Educación</h2>
-                    <div id="bachEducación-info" class="carrera-info">
-                        <img src="https://cbp.edu.gt/src/img/fondos/carreras/educacion-1.jpg" alt="Imagen de Bachillerato en Educación">
-                        
-                    </div>
-                </section>
-                
-                <section id="enfermeriaMedicina" class="carrera-box" onclick="toggleInfo('enfermeriaMedicina')">
-                    <h2>Enfermería y Medicina</h2>
-                    <div id="enfermeriaMedicina-info" class="carrera-info">
-                        <img src="https://www.cesurformacion.com/media/2221/download/grado-medio-auxiliar-enfermeria-opiniones.png?v=1" alt="Imagen de Enfermería y Medicina">
-                    </div>
-                </section>
-
-                <section id="EducaciónMusical" class="carrera-box" onclick="toggleInfo('EducaciónMusical')">
-                    <h2>Educación Musical</h2>
-                    <div id="EducaciónMusical-info" class="carrera-info">
-                        <img src="https://www.eluniverso.com/resizer/wsxQPYYHzoIiWnKPOPiyq46VFUE=/1005x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IX43N2K6HBD7LGEK7NOKVIMFZQ.jpeg" alt="Imagen de Educación Musical">
-                    </div>
-                </section>
+            <h2>Carreras</h2>
+            <section class="tecnica">
+                <h2>Carreras Técnicas</h2>
+                <div class="carrera-container">
+                    <section id="electronica" class="carrera-box" onclick="toggleInfo('electronica')">
+                        <h2>Perito en Electrónica y Dispositivos Digitales</h2>
+                        <div id="electronica-info" class="carrera-info">
+                            <img src="https://un.edu.mx/wp-content/uploads/2021/08/Universidad-del-Norte-Que-es-lo-que-hace-un-ingeniero-en-tecnologia-electronica-subtitulo.png" alt="Imagen de Perito en Electrónica y Dispositivos Digitales">
+                            <h3>¿Qué es la Electrónica?</h3>
+                            <p>La electrónica es una rama de la ingeniería y la física aplicada que se centra en el estudio y uso de sistemas y dispositivos que controlan el flujo de electrones o partículas cargadas eléctricamente. Esta disciplina abarca desde componentes básicos como resistencias y capacitores hasta sistemas más complejos como microcontroladores y circuitos integrados, jugando un papel crucial en el desarrollo de tecnología moderna.</p>
+                            <h3>¿Cuál es el Objetivo de la Carrera?</h3>
+                            <p>El objetivo principal de la carrera de Perito en Electrónica y Dispositivos Digitales es preparar a los estudiantes para:</p>
+                            <p>•    Comprender y aplicar los principios fundamentales de la electrónica y la digitalización.</p>
+                            <p>•    Diseñar, construir y reparar circuitos y dispositivos electrónicos. </p>
+                            <p>•    Utilizar herramientas y software especializados para el diseño y análisis de sistemas electrónicos.</p>
+                            <p>•    Desarrollar habilidades prácticas y técnicas que les permitan integrarse de manera efectiva en el mercado laboral o continuar con estudios superiores en áreas afines.</p>
+                            <h3>Pensum de la Carrera</h3>
+                            <p>•    Electricidad Básica</p>
+                            <p>•    Electrónica Analógica</p>
+                            <p>•    Reparación de Computadoras</p>
+                            <p>•    Taller de Elecronica Analógica / Digital</p>
+                            <p>•    Electrónica Digital</p> 
+                            <p>•    Introducción a Microprocesadores</p>
+                            <p>•    Matemáticas</p>
+                            <p>•    Inglés</p>
+                            <p>•    Estadítica</p>
+                            <p>•    Tecnología (Computación)</p>
+                            <p>•    Física Fundamental</p>
+                            <h3>Ventajas de la Carrera.</h3>
+                            <p>•    Alta Demanda Laboral: Los peritos en electrónica y dispositivos digitales son solicitados en diversas industrias como telecomunicaciones, manufactura y tecnología.</p>
+                            <p>•    Versatilidad Profesional: Los egresados tienen la capacidad de trabajar en varias áreas, incluyendo mantenimiento de equipos, diseño de sistemas, automatización y soporte técnico.</p>
+                            <p>•    Base para Estudios Superiores: La carrera proporciona una base sólida para continuar con estudios universitarios en ingeniería electrónica, telecomunicaciones o campos relacionados.</p>
+                            <p>•    Desarrollo de Habilidades Prácticas: Los estudiantes adquieren habilidades técnicas y prácticas que son inmediatamente aplicables en el entorno laboral.</p>
+                            <h3>Desventajas de la Carrera</h3>
+                            <p>•    Evolución Tecnológica Rápida: La electrónica es un campo en constante evolución, lo que requiere una actualización continua y capacitación para mantenerse al día.</p>
+                            <p>•    Competencia Laboral: Aunque hay demanda, también existe una alta competencia, lo que puede requerir un esfuerzo adicional para destacarse en el mercado laboral.</p>
+                            <p>•    Inversión en Equipos: La formación en electrónica a menudo requiere acceso a equipos y software especializados, lo cual puede implicar costos adicionales.</p>
+                        </div>
+                    </section>
+                    <section id="dibujoTecnico" class="carrera-box" onclick="toggleInfo('dibujoTecnico')">
+                        <h2>Dibujo Técnico en Construcción</h2>
+                        <div id="dibujoTecnico-info" class="carrera-info">
+                            <img src="https://static.vecteezy.com/system/resources/previews/026/983/644/original/one-continuous-line-drawing-team-of-young-architects-presenting-construction-sketch-draft-blueprint-design-to-manager-building-architecture-business-concept-single-line-draw-design-illustration-png.png" alt="Imagen de Dibujo Técnico en Construcción">
+                            <p>Es una carrera relacionada al dibujo de planos para obras de construcción, también la enseñanza del uso de herramientas como lo son AUTOCAD y Sketchup.</p>
+                        </div>
+                    </section>
+                    <section id="Mecánica" class="carrera-box" onclick="toggleInfo('Mecánica')">
+                        <h2>Mecánica Automotriz</h2>
+                        <div id="Mecánica-info" class="carrera-info">
+                            <img src="https://img.freepik.com/foto-gratis/trabajador-servicio-coche-musculoso-reparando-vehiculo_146671-19605.jpg" alt="Imagen de Mecánica Automotriz">
+                           <h3>¿Qué es la Mecánica Automotriz?</h3>
+                            <p>La mecánica automotriz es una disciplina que aplica principios de física y mecánica para generar y transmitir movimiento en vehículos de tracción mecánica. Su importancia se refleja en el diseño de sistemas informáticos para automatizar procesos contables en el sector, lo que permite un control racional de la prestación del servicio. Además, la innovación en sistemas mecatrónicos, como sensores y unidades de control, ha transformado la parte eléctrica-electrónica de los vehículos, mejorando su rendimiento y seguridad.</p>
+                            <h3>¿Qué realiza?</h3>
+                            <p>1.	Estudia las formas de generación y transmisión del movimiento en un vehículo. </p>
+                            <p>2.	Aplica principios propios de la física y la mecánica.</p>
+                            <p>3.	Estudia diversos elementos que conforman la estructura del vehículo.</p>
+                            <h3>Pensum básico de la carrera (cursos).</h3>
+                            <p>- Matemáticas</p>
+                            <p>- Física Fundamental</p>
+                            <p>- Inglés</p>
+                            <p>- Tecnología (computación)</p>
+                            <p>- Mecánica</p>
+                            <h3>Ventajas del Curso.</h3>
+                            <p>- La resolución de problemas: la mecánica Automotriz necesita de mucha destreza en la resolución de problemas de todo tipo, desde los más sencillos, hasta los más complicados, en los cuales el mecánico debe ejercer estrategias, profecionalismo, y sobre todo creatividad para poder resolver los problemas que se presenten. Por lo tanto la mecánica hace a que los futuros mecánicos sean personas que donde haya desorden y los demás vean desastre, ellos vean soluciones y proyectos.</p>
+                            <p>- Rentabilidad: la mecánica Automotriz es un trabajo y negocio sustentable en el cual siempre habrá trabajo y demanda del mismo, ya que los automóviles ya no son un lujo limitado a personas de poder, si no que actualmente cualquier persona puede tener acceso a un vehículo, y por esa misma razón el trabajo en la mecánica, no es difícil de encontrarse.</p>
+                            <p>- Seguimiento de la carrera: luego de haber concluido aa carrera de mecánica Automotriz, se puede seguir varios tipos de carreras en una universidad dependiendo del gusto de la persona, ya que se puede especializar en varias ramas como por ejemplo: Mecánica en Motores Diésel, Mecánica de Aviones, Ingeniería en Mecánica. Etc. </p>
+                        </div>
+                    </section>
             </section>
-          
+
+            <section class="teorica">
+                <h2>Carreras Teóricas</h2>
+                <div class="carrera-container">
+                    <section id="peritoContador" class="carrera-box" onclick="toggleInfo('peritoContador')">
+                        <h2>Perito Contador</h2>
+                        <div id="peritoContador-info" class="carrera-info">
+                            <img src="https://png.pngtree.com/png-vector/20240326/ourmid/pngtree-accountant-and-his-finances-concept-art-png-image_12203896.png" alt="Imagen de Perito Contador">
+                            <p>Es una carrera relacionada con los números, enfocada a la enseñanza de la contabilidad a través de inventarios y libros diarios.</p>
+                        </div>
+                    </section>
+                    <section id="administracion" class="carrera-box" onclick="toggleInfo('administracion')">
+                        <h2>Administración de Empresas/ Gerencia Administrativa</h2>
+                        <div id="administracion-info" class="carrera-info">
+                            <img src="https://www.un.edu.mx/wp-content/uploads/2023/05/Universidad-del-Norte-Gran-demanda-de-profesionales-empresarialessubtitulo.png" alt="Imagen de Administración de Empresas">
+                            <h3>¿Qué es Perito en Gerencia Administrativa?</h3>
+                            <p>Un perito en gerencia administrativa o Administrador es un profesional especializado en la gestión y dirección de empresas u organizaciones. Este rol implica tener conocimientos profundos sobre administración de recursos humanos, finanzas, operaciones, estrategia empresarial y otras áreas clave para el funcionamiento eficiente de una empresa. Los peritos en gerencia administrativa suelen ser responsables de tomar decisiones estratégicas, resolver problemas operativos, optimizar procesos y asegurar el cumplimiento de objetivos organizacionales. Además, pueden actuar como consultores o asesores para mejorar el rendimiento y la eficacia de una empresa.</p>
+                            <h3>¿Cuál es el objetivo de la carrera?</h3>
+                            <p>El objetivo de estudiar la carrera de perito en gerencia administrativa es adquirir los conocimientos y habilidades necesarios para gestionar eficientemente empresas u organizaciones. Algunos de los objetivos específicos incluyen:</p>
+                            <p>•	Capacitación en Gestión Empresarial: Obtener competencias en áreas como administración, finanzas, recursos humanos, operaciones y estrategia empresarial.</p>
+                            <p>•	Desarrollo de Habilidades Directivas: Aprender a liderar equipos, tomar decisiones estratégicas y resolver problemas complejos dentro de una organización.</p>
+                            <p>•	Optimización de Recursos: Aprender a utilizar eficazmente los recursos disponibles para mejorar el rendimiento y la eficiencia organizacional.</p>
+                            <p>•	Adaptación al Entorno Empresarial: Estar preparado para enfrentar los retos del mundo empresarial actual, que incluyen globalización, cambios tecnológicos y dinámicas de mercado.</p>
+                            <p>•	Contribución al Éxito Organizacional: Contribuir al éxito y crecimiento de empresas y organizaciones a través de la aplicación efectiva de principios de gestión y administración.</p> 
+                            <h3>Pensum de la carrera</h3>
+                            <p>•	Administración</p>
+                            <p>•	Mate básica</p>
+                            <p>•	Mate financiera</p>
+                            <p>•	Contabilidad</p>
+                            <p>•	Psicología industrial</p> 
+                            <p>•	Recursos humanos</p>
+                            <p>•	Administración de proyectos</p>
+                            <p>•	Fundamentos de publicidad</p>
+                            <h3>Ventajas</h3>
+                            <p>Estudiar la carrera de perito en gerencia administrativa ofrece varias ventajas significativas:</p>
+                            <p>•	Versatilidad Profesional: Los conocimientos adquiridos son aplicables a una amplia gama de sectores y tipos de organizaciones, lo que brinda flexibilidad en el ámbito laboral. </p>
+                            <p>•	Oportunidades Laborales: Existe una demanda constante de profesionales con habilidades en gestión administrativa, lo que aumenta las oportunidades de empleo en diferentes industrias. </p>
+                            <p>•	Desarrollo de Habilidades Gerenciales: Se desarrollan habilidades directivas como liderazgo, toma de decisiones, resolución de problemas y trabajo en equipo, fundamentales para roles de liderazgo.</p>
+                            <p>•	Potencial de Crecimiento Profesional: Los peritos en gerencia administrativa tienen la oportunidad de avanzar en sus carreras hacia posiciones de mayor responsabilidad y salario dentro de una organización.</p>
+                            <p>•	Contribución al Éxito Organizacional: Al entender y aplicar principios eficaces de gestión, los graduados pueden ayudar a mejorar el desempeño y la eficiencia de las empresas, contribuyendo así a su éxito a largo plazo. </p>
+                            <p>•	Capacidad para Emprender: Los conocimientos en administración y gestión también son fundamentales para aquellos que desean emprender su propio negocio, proporcionando las bases para la planificación estratégica y la gestión efectiva de recursos.</p>
+                            <h3>Desventajas</h3>
+                            <p>Aunque estudiar la carrera de perito en gerencia administrativa tiene numerosas ventajas, también hay algunas desventajas que se deben considerar:</p>
+                            <p>•	Competencia Laboral: Debido a la popularidad de la carrera, el mercado laboral puede ser competitivo, especialmente para roles de alta demanda en empresas prestigiosas o sectores específicos.</p> 
+                            <p>•	Necesidad de Experiencia Práctica: Aunque se adquieren conocimientos teóricos sólidos, algunos empleadores pueden valorar más la experiencia práctica o habilidades específicas que no siempre se enseñan en el aula. </p>
+                            <p>•	Presión por Resultados: En roles de gestión administrativa, se puede enfrentar presión por alcanzar objetivos financieros, mejorar la eficiencia operativa o resolver problemas organizacionales, lo que puede ser estresante.</p>
+                            <p>•	Evolución Tecnológica: Con el rápido avance de la tecnología, los profesionales deben mantenerse actualizados con las últimas herramientas y tendencias digitales, lo que puede requerir aprendizaje continuo fuera del entorno académico.</p>
+                            <p>•	Responsabilidades Gerenciales: A medida que se asciende en la jerarquía organizacional, aumentan las responsabilidades de liderazgo y toma de decisiones estratégicas, lo cual puede ser desafiante y demandante.</p>
+                            <p>•	Sensibilidad a la Economía: La carrera puede verse afectada por fluctuaciones económicas y cambios en el mercado laboral, lo que podría influir en las oportunidades de empleo y crecimiento profesional.</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="magisterio">
+                <h2>Magisterios</h2>
+                <div class="carrera-container">
+                    <section id="magisterio" class="carrera-box" onclick="toggleInfo('magisterio')">
+                        <h2>Magisterio de Educación Bilingüe Intercultural</h2>
+                        <div id="magisterio-info" class="carrera-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM2d7NHvifGBRd9fyiLhxUAC1f_fCa89QemQ&s" alt="Imagen de Magisterio de Educación Bilingüe Intercultural">
+                            <h3>¿Qué es magisterio de educación infantil bilingüe intercultural?</h3>
+                            <p>La Educación Bilingüe Intercultural tiene como propósito brindar a los estudiantes de la Carrera de Magisterio de Educación Infantil Bilingüe Intercultural, una formación que posibilita orientar los aprendizajes de los estudiantes, para su preparación e inserción en una sociedad local diversa y en constante cambio.
+                                La carrera de magisterio está enfocada a la Psicopedagogía, al comportamiento que tienen los niños y niñas, su desarrollo tanto sensorial, cognitivo y motor, todo esto con el fin de enfocarse en la enseñanza de los niños del nivel preprimaria, a lo largo de los años magisterio se ha convertido en una de las carreras fundamentales para la enseñanza, este consta con tres grados conocidos como:  Párvulos uno, Párvulos dos y Párvulos tres.
+                                Magisterio es una carrera en la cual busca la menara de mejorar la enseñanza de los niños, donde a través del juego, cuentos, cantos, competencias e indicadores de logros los niños pueden aprender de forma eficaz y divertida.
+                                También cuenta con un libro o guía la cual se llama CNB, este consta con cinco áreas las cuales son: Educación para la ciencia y la ciudadanía, Destrezas de comunicación y lenguaje, Destrezas de aprendizaje matemático, Educación física y Educación artística. Todo esto nos ayuda a crear nuestras agendas las cuales nos ayudan a impartir y llevar control de nuestras clases, también a ver el progreso de los niños y niñas y ver si las estrategias que han utilizado están funcionando.
+                                </p>
+                            <h3>¿Cuál es su objetivo?</h3>
+                            <p>Busca que los niños y niñas puedan tener una buena enseñanza y que puedan aprender de forma eficaz y divertida, ya que estudios han demostrado que los niños aprenden jugando. Todo con el fin de que el niño pueda aprender y desarrollar sus habilidades. Magisterio es una carrera a la cual se le dedica tiempo, responsabilidad, paciencia y creatividad, ya que estamos a cargo de la enseñanza y formación a los niños.</p>
+                            <h3>Pensum de la carrera o áreas curriculares básicas.</h3>
+                            <p>•Práctica Docente</p>
+                            <p>•Educación Bilingüe </p>
+                            <p>•Psicopedagogía </p>
+                            <p>•Matemática</p>
+                            <p>•Planificación y Evaluación</p> 
+                            <p>•K´iche´ </p>
+                            <p>Entre otras.</p>
+                            <h3>Ventajas de la profesión.</h3>
+                            <p>Contribuir al desarrollo de las futuras generaciones: Los maestros tienen la oportunidad de influir en la Vida de sus estudiantes y guiarlos hacia su éxito académico y personal. De este modo, esta tarea permite a los maestros contribuir al crecimiento y desarrollo de las futuras generaciones.</p>
+                            <p>Estabilidad laboral: Los maestros suelen tener una carrera laboral estable, con un contrato fijo y beneficios adicionales, como seguro médico y pensiones.</p>
+                            <p>Desarrollo profesional: La profesión de maestro permite a estos profesionales involucrarse en una amplia variedad de actividades, como asistir a talleres y conferencias, participar en programas de capacitación, colaborar con otros profesionales de la educación y especializarse en diferentes áreas de conocimiento.</p>
+                            <h3>Desventajas de la profesión.</h3>
+                            <p>Bajos salarios: El pago a los profesionales de la educación en algunos casos está por debajo del sueldo básico. A veces se ven obligados a realizar otros trabajos en su tiempo libre.</p>
+                        </div>
+                    </section>
+    
+                </div>
+            </section>
+
+            <section class="bachillerato">
+                <h2>Bachilleratos</h2>
+                <div class="carrera-container">
+                    <section id="bachComputacion" class="carrera-box" onclick="toggleInfo('bachComputacion')">
+                        <h2>Bachillerato en Computación</h2>
+                        <div id="bachComputacion-info" class="carrera-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWnYQDyGnD15TJw7mmMBBvoE7jru-ijDeacA&s" alt="Imagen de Bachillerato en Computación">
+                            <p>Es una carrera de dos años donde se aprende el uso básico de la computación, incluyendo programas como Pseint para programar.</p>
+                        </div>
+                    </section>
+                    <section id="EducaciónMusical" class="carrera-box" onclick="toggleInfo('EducaciónMusical')">
+                        <h2>Educación Musical</h2>
+                        <div id="EducaciónMusical-info" class="carrera-info">
+                            <img src="https://www.eluniverso.com/resizer/wsxQPYYHzoIiWnKPOPiyq46VFUE=/1005x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IX43N2K6HBD7LGEK7NOKVIMFZQ.jpeg" alt="Imagen de Educación Musical">
+                        </div>
+                    </section>
+                    <section id="bachEducación" class="carrera-box" onclick="toggleInfo('bachEducación')">
+                        <h2>Bachillerato en Educación</h2>
+                        <div id="bachEducación-info" class="carrera-info">
+                            <img src="https://cbp.edu.gt/src/img/fondos/carreras/educacion-1.jpg" alt="Imagen de Bachillerato en Educación">
+                            <h3>¿Qué es el Bachillerato en ciencias y letras con orientación en educación ?</h3>
+                            <p>El Bachillerato en Ciencias y Letras con Orientación en Educación es un programa de estudios de nivel medio que proporciona una formación integral a los estudiantes en áreas científicas, humanísticas y pedagógicas. Este tipo de bachillerato no solo abarca una amplia gama de conocimientos académicos, sino que también se enfoca en preparar a los estudiantes para una posible carrera en el campo de la educación.</p>
+                            <h3>¿Cuál es el Objetivo de la Carrera?</h3>
+                            <p>El objetivo principal de la carrera de Perito en Electrónica y Dispositivos Digitales es preparar a los estudiantes para:</p>
+                            <p>•    Comprender y aplicar los principios fundamentales de la electrónica y la digitalización.</p>
+                            <p>•    Diseñar, construir y reparar circuitos y dispositivos electrónicos. </p>
+                            <p>•    Utilizar herramientas y software especializados para el diseño y análisis de sistemas electrónicos.</p>
+                            <p>•    Desarrollar habilidades prácticas y técnicas que les permitan integrarse de manera efectiva en el mercado laboral o continuar con estudios superiores en áreas afines.</p>
+                            <h3>Pensum de la Carrera</h3>
+                            <p>•    Lengua y literatura </p>
+                            <p>•    Biología </p>
+                            <p>•    Química </p>
+                            <p>•    Estadística </p>
+                            <p>•    Ciencias sociales </p> 
+                            <p>•    Ciencias y tecnología de los pueblos </p>
+                            <p>•    Matemáticas </p>
+                            <p>•    Tecnología</p>
+                            <p>•    Quiche </p>
+                            <p>•    Ingles </p>
+                            <p>•    Identidad y profesión </p>
+                            <p>•    Paradigmas educativos </p>
+                            <p>•    Psicología </p>
+                            <h3>Ventajas de la Carrera.</h3>
+                            <p>•    Versatilidad: Proporciona una formación amplia y diversa, permitiendo a los estudiantes mantener abiertas varias opciones de carrera.</p>
+                            <p>•    Preparación Temprana: Los estudiantes interesados en la educación obtienen una preparación temprana y específica, facilitando su futura formación como docentes.</p>
+                            <p>•    Desarrollo Personal: Fomenta el desarrollo de habilidades personales y sociales, esenciales tanto en el ámbito educativo como en la vida diaria.</p>
+                            <h3>Desventajas de la Carrera</h3>
+                            <p>•    Evolución Tecnológica Rápida: La electrónica es un campo en constante evolución, lo que requiere una actualización continua y capacitación para mantenerse al día.</p>
+                            <p>•    Competencia Laboral: Aunque hay demanda, también existe una alta competencia, lo que puede requerir un esfuerzo adicional para destacarse en el mercado laboral.</p>
+                            <p>•    Inversión en Equipos: La formación en electrónica a menudo requiere acceso a equipos y software especializados, lo cual puede implicar costos adicionales.</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="salud">
+                <h2>Carreras de Salud</h2>
+                <div class="carrera-container">
+                    <section id="enfermeriaMedicina" class="carrera-box" onclick="toggleInfo('enfermeriaMedicina')">
+                        <h2>Enfermería y Medicina</h2>
+                        <div id="enfermeriaMedicina-info" class="carrera-info">
+                            <img src="https://www.cesurformacion.com/media/2221/download/grado-medio-auxiliar-enfermeria-opiniones.png?v=1" alt="Imagen de Enfermería y Medicina">
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </section>
+
         <section id="acerca" style="display: none;">
             <h2>Acerca de</h2>
             <p>ORIENTA2 es una página web creada con el Objetivo de Dar a conocer a los jóvenes aspirantes a una carrera de Diversificado la información necesaria de diferentes carreras, facilitandoles de cierta forma la elección de la misma.</p>
             <p>La idea Nació de una tarea, en la cual se pensaba que seria una página cualquiera, pero resultó dando un giro de 360° al querer convertirla en una página que sirva para orientar a jóvenes antes de tomar una de las más grandes decisiones de su vida.</p>
             <p>Esperando de todo Corazón que pueda ser útil para los jóvenes y señoritas que tengan el agrado de probar esta pagina, Nosotros Randall Alvarez, Angie Del Valle y la ONG Amigos de Chocolá esperamos poder formar parte de su orientación escolar para este nuevo ciclo</p>
         </section>
-        
+
         <section id="contacto" style="display: none;">
             <h2>Contacto</h2>
             <p>Randall Alvarez Creador de la página</p>
@@ -215,31 +265,12 @@
             <p>Instagram: oc_randall_</p>
         </section>
     </main>
+
+    
     <footer>
         <p>&copy; 2024 ORIENTA2. Todos los derechos reservados.</p>
     </footer>
-    <script>
-        function mostrarSeccion(seccion) {
-            var secciones = document.querySelectorAll('main > section');
-            secciones.forEach(function(s) {
-                s.style.display = 'none';
-            });
-            
-            document.getElementById(seccion).style.display = 'block';
-        }
 
-        function toggleInfo(carrera) {
-            var infoDiv = document.getElementById(carrera + '-info');
-            if (infoDiv.style.display === 'none' || infoDiv.style.display === '') {
-                infoDiv.style.display = 'block';
-            } else {
-                infoDiv.style.display = 'none';
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            mostrarSeccion('inicio');
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
