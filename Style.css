@@ -30,15 +30,17 @@ header .logo {
 .header-content {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header-content .logo {
-    margin-right: 10px; 
+    max-height: 80px;
+    margin-right: 10px;
 }
 
 .header-content h1 {
-    margin: 0;
-    font-size: 40px; 
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 
@@ -180,5 +182,11 @@ body {
 @media (max-width: 480px) {
     .carrera-box {
         width: calc(100% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .carrera-box {
+        width: calc(100% - 20px);
     }
 }
