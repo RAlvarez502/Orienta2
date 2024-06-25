@@ -7,5 +7,7 @@ function mostrarSeccion(idSeccion) {
 
 function toggleInfo(idCarrera) {
     let carreraInfo = document.getElementById(idCarrera + '-info');
-    carreraInfo.style.display = (carreraInfo.style.display === 'block') ? 'none' : 'block';
+    if (carreraInfo) {
+        carreraInfo.style.display = (carreraInfo.style.display === 'block') ? 'none' : 'block';
+    }
 }
