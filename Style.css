@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e1e4e8;
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -74,7 +75,8 @@ nav ul li a:hover {
 main {
     flex: 1;
     padding: 20px;
-    background-color: #353535;
+    background-color: #353535;   
+    box-sizing: border-box; 
 }
 
 .carrera-container {
@@ -158,6 +160,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+    box-sizing: border-box;
     }
 
 html, body {
@@ -187,11 +190,5 @@ body {
 @media (max-width: 480px) {
     .carrera-box {
         width: calc(100% - 20px); 
-    }
-}
-
-@media (max-width: 480px) {
-    .carrera-box {
-        width: calc(100% - 20px);
     }
 }
