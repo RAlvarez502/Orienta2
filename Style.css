@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -9,6 +9,7 @@ body {
     background-color: #ffffff;
     color: #e2e2e2;
     box-sizing: border-box;
+    width: 100%;
 }
 
 header {
@@ -20,6 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e1e4e8;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -37,6 +39,7 @@ header .logo {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .header-content .logo {
@@ -48,7 +51,6 @@ header .logo {
     font-size: 28px;
     margin-bottom: 10px;
 }
-
 
 nav ul {
     list-style: none;
@@ -76,6 +78,7 @@ main {
     flex: 1;
     padding: 20px;
     background-color: #353535;   
+    width: 100%;
     box-sizing: border-box; 
 }
 
@@ -83,8 +86,20 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
 }
 
+.carrera-box {
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
 
 #peritoContador {
     background-color: #ffd700; 
@@ -114,18 +129,6 @@ main {
     background-color: #db4b4b; 
 }
 
-
-.carrera-box {
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
-    padding: 20px;
-    width: calc(33.333% - 20px);
-    box-sizing: border-box;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    margin-bottom: 20px;
-}
-
 .carrera-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -152,8 +155,6 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-
 footer {
     background-color: #2883ad; 
     color: #FFFFFF;
@@ -161,23 +162,21 @@ footer {
     padding: 10px 0;
     width: 100%;
     box-sizing: border-box;
-    }
+}
 
 html, body {
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
-}
-
-body {
-    background-color: #ffffff; 
+    width: 100%;
 }
 
 #root {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -185,7 +184,6 @@ body {
         width: calc(50% - 20px);
     }
 }
-
 
 @media (max-width: 480px) {
     .carrera-box {
