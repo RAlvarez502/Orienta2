@@ -1,21 +1,11 @@
-function mostrarSeccion(seccion) {
-    var secciones = document.querySelectorAll('main > section');
-    secciones.forEach(function(s) {
-        s.style.display = 'none';
+function mostrarSeccion(idSeccion) {
+    document.querySelectorAll('main > section').forEach(seccion => {
+        seccion.style.display = 'none';
     });
-
-    document.getElementById(seccion).style.display = 'block';
+    document.getElementById(idSeccion).style.display = 'block';
 }
 
-function toggleInfo(carrera) {
-    var infoDiv = document.getElementById(carrera + '-info');
-    if (infoDiv.style.display === 'none' || infoDiv.style.display === '') {
-        infoDiv.style.display = 'block';
-    } else {
-        infoDiv.style.display = 'none';
-    }
+function toggleInfo(idCarrera) {
+    let carreraInfo = document.getElementById(idCarrera + '-info');
+    carreraInfo.style.display = (carreraInfo.style.display === 'block') ? 'none' : 'block';
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    mostrarSeccion('inicio');
-});
