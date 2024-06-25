@@ -1,63 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff; 
-    color: #333;
+    font-family: 'Papyrus', 'impact';
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    color: #e2e2e2;
 }
-
 
 header {
-    background-color: #ff6f61; 
+    background-color: #3491fc;
     color: white;
-    padding: 20px;
-}
-
-.header-content {
+    padding: 30px;
+    text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e1e4e8;
 }
 
 header h1 {
     margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
-header img.logo {
-    max-height: 60px;
+header .logo {
+    max-height: 120px;
 }
 
-/* Estilos de la navegación */
-nav {
-    background-color: #ffb74d;
-    padding: 10px;
+.header-content {
+    display: flex;
+    align-items: center;
 }
+
+.header-content .logo {
+    margin-right: 10px; 
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 40px; 
+}
+
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    margin: 0;
 }
 
-nav li {
-    margin: 0 10px;
+nav ul li {
+    margin-right: 20px;
 }
 
-nav a {
+nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav ul li a:hover {
+    color: #0366d6;
 }
-
 
 main {
+    flex: 1;
     padding: 20px;
-    background-color: #fff9c4;
+    background-color: #353535;
 }
 
 .carrera-container {
@@ -66,32 +76,62 @@ main {
     justify-content: space-between;
 }
 
+
+#peritoContador {
+    background-color: #ffd700; 
+}
+
+#administracion {
+    background-color: #90ee90; 
+}
+
+#electronica {
+    background-color: #ffa07a; 
+}
+
+#dibujoTecnico {
+    background-color: #add8e6;
+}
+
+#bachComputacion {
+    background-color: #579e8f; 
+}
+
+#magisterio {
+    background-color: #ffcccb; 
+}
+
+#Mecánica {
+    background-color: #db4b4b; 
+}
+
+
 .carrera-box {
-    background-color: #FFFFFF; 
-    border: 1px solid #e7e7e7; 
+    border: 1px solid #e7e7e7;
     border-radius: 5px;
     padding: 20px;
-    width: calc(33.333% - 20px);  
+    width: calc(33.333% - 20px);
     box-sizing: border-box;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     margin-bottom: 20px;
 }
 
 .carrera-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .carrera-box h2 {
     font-size: 20px;
     margin-top: 0;
-    color: #333; 
+    color: #252525;
 }
 
 .carrera-info {
     display: none;
     margin-top: 15px;
+    color: #252525;
 }
 
 .carrera-box img {
@@ -99,13 +139,11 @@ main {
     height: auto;
     display: block;
     margin-bottom: 10px;
-    border-radius: 5px; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.carrera-info {
-    display: none;
-}
+
 
 footer {
     background-color: #2883ad; 
@@ -113,14 +151,31 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+    }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
+body {
+    background-color: #ffffff; 
+}
+
+#root {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
 
 @media (max-width: 768px) {
     .carrera-box {
         width: calc(50% - 20px);
     }
 }
+
 
 @media (max-width: 480px) {
     .carrera-box {
