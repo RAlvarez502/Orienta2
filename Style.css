@@ -7,16 +7,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #e2e2e2;
+    color: #838383;
     box-sizing: border-box;
     width: 100%;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #3491fc;
+    background-image: url('Encabezado.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
-    padding: 30px;
+    padding: 100px;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -65,7 +68,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -76,35 +79,45 @@ nav ul li a:hover {
 }
 
 main {
+    background-image: url('main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     flex: 1;
     padding: 20px;
     background-color: #353535;   
     width: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin-top: 0; 
+    position: relative; 
 }
 
 .tecnica {
-    background-color: #353535;
+    background-color: rgba(12, 12, 12, 0.24); 
     padding: 20px;
     margin-bottom: 20px;
 }
+
 .teorica {
-    background-color: #353535;
+    background-color: rgba(12, 12, 12, 0.24); 
     padding: 20px;
     margin-bottom: 20px;
 }
+
 .magisterio {
-    background-color: #353535;
+    background-color: rgba(12, 12, 12, 0.24); 
     padding: 20px;
     margin-bottom: 20px;
 }
+
 .bachillerato {
-    background-color: #353535;
+    background-color: rgba(12, 12, 12, 0.24); 
     padding: 20px;
     margin-bottom: 20px;
 }
+
 .salud {
-    background-color: #353535;
+    background-color: rgba(12, 12, 12, 0.24); 
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -126,46 +139,47 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     margin-bottom: 20px;
+    opacity: 0.8; 
 }
 
 #peritoContador {
-    background-color: #ffd700; 
+    background-color: rgba(255, 215, 0, 0.8); 
 }
 
 #administracion {
-    background-color: #90ee90;
+    background-color: rgba(144, 238, 144, 0.8); 
 }
 
 #electronica {
-    background-color: #ffa07a; 
+    background-color: rgba(255, 160, 122, 0.8); 
 }
 
 #dibujoTecnico {
-    background-color: #add8e6;
+    background-color: rgba(173, 216, 230, 0.8); 
 }
 
 #bachIndustrial {
-    background-color: #579e8f; 
+    background-color: rgba(87, 158, 143, 0.8); 
 }
 
 #magisterio {
-    background-color: #ffcccb; 
+    background-color: rgba(255, 204, 203, 0.8); 
 }
 
 #Mecánica {
-    background-color: #db4b4b; 
+    background-color: rgba(219, 75, 75, 0.8); 
 }
 
 #bachEducación {
-    background-color: #6a328f;
+    background-color: rgba(106, 50, 143, 0.8); 
 }
 
 #enfermeriaMedicina {
-    background-color: #dadada;
+    background-color: rgba(218, 218, 218, 0.8); 
 }
 
 #EducaciónMusical {
-    background-color: #9ebb67;
+    background-color: rgba(158, 187, 103, 0.8); 
 }
 
 .carrera-box:hover {
@@ -195,10 +209,13 @@ main {
 }
 
 footer {
-    background-color: #2883ad; 
+    background-image: url('footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     width: 100%;
     box-sizing: border-box;
 }
@@ -209,7 +226,7 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 #root {
@@ -227,6 +244,6 @@ html, body {
 
 @media (max-width: 480px) {
     .carrera-box {
-        width: calc(100% - 20px); 
+        width: calc(100% - 20px);
     }
 }
