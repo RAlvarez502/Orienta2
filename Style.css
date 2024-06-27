@@ -16,14 +16,14 @@ body {
 header {
     background-image: url('Encabezado.png');
     background-size: cover;
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     color: white;
     padding: 100px;
     text-align: left;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     border-bottom: 1px solid #e1e4e8;
     width: 100%;
     box-sizing: border-box;
