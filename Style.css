@@ -23,7 +23,7 @@ header {
     text-align: left;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     border-bottom: 1px solid #e1e4e8;
     width: 100%;
     box-sizing: border-box;
