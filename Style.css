@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Georgia';
     margin: 0;
@@ -16,7 +12,7 @@ body {
 header {
     background-image: url('Encabezado.png');
     background-size: cover;
-    background-position: right;
+    background-position: left;
     background-repeat: no-repeat;
     color: white;
     padding: 100px;
@@ -237,6 +233,21 @@ html, body {
     width: 100%;
 }
 
+@media (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
 @media (max-width: 768px) {
     .carrera-box {
         width: calc(50% - 20px);
@@ -247,14 +258,7 @@ html, body {
     .carrera-box {
         width: calc(100% - 20px);
     }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 20px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 0;
+    
+    header h1 {
+        font-size: 1.2rem;
     }
-}
