@@ -255,7 +255,7 @@ html, body {
 @media (max-width: 768px) {
     header {
         padding: 15px;
-        background-size: contain; 
+        background-size: contain; /* Ajusta la imagen de fondo para dispositivos más pequeños */
         background-position: center;
     }
 
@@ -291,8 +291,8 @@ html, body {
     header {
         padding: 10px;
         height: auto;
-        min-height: 100px; 
-        background-size: cover; 
+        min-height: 100px; /* Ajusta la altura mínima para dispositivos pequeños */
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
     }
 
     header h1 {
