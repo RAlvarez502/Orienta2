@@ -22,12 +22,11 @@ header {
     align-items: center;
     border-bottom: 1px solid #e1e4e8;
     width: 100%;
-    height: auto;
-    min-height: 150px;
+    height: auto; /* Ajuste automático de altura */
+    min-height: 150px; /* Altura mínima */
     box-sizing: border-box;
-    margin: 0;
-    flex-wrap: wrap;
-}
+    flex-wrap: nowrap; /* No permitir que los elementos se envuelvan */
+    }
 
 header h1 {
     margin: 0;
@@ -239,7 +238,7 @@ html, body {
 @media (max-width: 1200px) {
     header {
         padding: 20px;
-        background-size: contain; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
     }
 
     header h1 {
@@ -264,7 +263,7 @@ html, body {
 @media (max-width: 768px) {
     header {
         padding: 15px;
-        background-size: contain; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
         background-position: center;
     }
 
@@ -301,7 +300,7 @@ html, body {
         padding: 10px;
         height: auto;
         min-height: 100px; /* Ajusta la altura mínima para dispositivos pequeños */
-        background-size: contain; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
     }
 
     header h1 {
