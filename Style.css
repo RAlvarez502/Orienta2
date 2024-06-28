@@ -255,10 +255,21 @@ html, body {
 }
 
 @media (max-width: 480px) {
-    .carrera-box {
-        width: calc(100% - 20px);
+    header {
+        padding: 10px;
+        background-size: contain; /* Ajusta la imagen de fondo para dispositivos pequeños */
+        background-position: center;
     }
-    
+
     header h1 {
         font-size: 1.2rem;
     }
+
+    .header-content h1 {
+        font-size: 20px;
+    }
+
+    .carrera-box {
+        width: calc(100% - 20px);
+    }
+}
