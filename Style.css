@@ -13,14 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-header, main, footer {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    box-sizing: border-box;
-}
-
 header {
     background-image: url('h.png');
     background-size: cover;
