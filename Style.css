@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e1e4e8;
+    border-bottom: 30px solid #e1e4e8;
     width: 100%;
     height: auto;
     min-height: 150px;
@@ -226,7 +226,7 @@ footer {
     background-repeat: no-repeat;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
     width: 100%;
     box-sizing: border-box;
 }
