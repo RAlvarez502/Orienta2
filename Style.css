@@ -142,7 +142,11 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     margin-bottom: 20px;
-    opacity: 0.8; 
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px; /* Establece una altura mínima */
 }
 
 #peritoContador {
@@ -194,13 +198,16 @@ main {
     font-size: 20px;
     margin-top: 0;
     color: #000000;
+    flex-grow: 1;
 }
 
 .carrera-info {
     display: none;
     margin-top: 15px;
     color: #000000;
+    flex-shrink: 0;
 }
+
 
 .carrera-box img {
     max-width: 100%;
@@ -332,5 +339,19 @@ html, body {
 
     .carrera-box {
         width: calc(100% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .carrera-box {
+        width: calc(50% - 20px);
+        min-height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carrera-box {
+        width: calc(100% - 20px);
+        min-height: 150px;
     }
 }
