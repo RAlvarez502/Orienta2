@@ -239,50 +239,10 @@ html, body {
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .carrera-box {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .carrera-box {
-        width: calc(100% - 20px); 
-    }
-}
-
-@media (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
-
-    nav ul li a {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 10px;
-    }
-
-    nav ul {
-        justify-content: flex-end;
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    nav ul li a {
-        font-size: 0.8rem;
-    }
-}
-
 @media (max-width: 1200px) {
     header {
         padding: 20px;
-        background-size: cover;
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
     }
 
     header h1 {
@@ -290,7 +250,7 @@ html, body {
     }
 
     .header-content {
-        flex-direction: row;
+        flex-direction: row; /* Mantener en una fila */
         justify-content: space-between;
     }
 
@@ -307,7 +267,7 @@ html, body {
 @media (max-width: 768px) {
     header {
         padding: 15px;
-        background-size: cover;
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
         background-position: center;
     }
 
@@ -316,7 +276,7 @@ html, body {
     }
 
     .header-content {
-        flex-direction: row;
+        flex-direction: row; /* Mantener en una fila */
         justify-content: space-between;
     }
 
@@ -324,3 +284,53 @@ html, body {
         font-size: 1.2rem;
         margin-bottom: 5px;
     }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    .carrera-box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+        height: auto;
+        min-height: 100px; /* Ajusta la altura mínima para dispositivos pequeños */
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+    }
+
+    header h1 {
+        font-size: 0.8rem;
+    }
+
+    .header-content {
+        flex-direction: row; /* Mantener en una fila */
+        justify-content: space-between;
+    }
+
+    .header-content h1 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        margin: 5px 5px;
+    }
+
+    .carrera-box {
+        width: calc(100% - 20px);
+    }
+}
