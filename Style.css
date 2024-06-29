@@ -251,7 +251,15 @@ html, body {
     .carrera-box {
         width: calc(50% - 20px);
     }
+}
 
+@media (max-width: 480px) {
+    .carrera-box {
+        width: calc(100% - 20px); 
+    }
+}
+
+@media (max-width: 768px) {
     header {
         padding: 10px;
     }
@@ -262,10 +270,6 @@ html, body {
 }
 
 @media (max-width: 480px) {
-    .carrera-box {
-        width: calc(100% - 20px); 
-    }
-
     header {
         padding: 10px;
     }
@@ -281,13 +285,50 @@ html, body {
     nav ul li a {
         font-size: 0.8rem;
     }
+}
 
-    footer {
-        padding: 5px 0;
+@media (max-width: 1200px) {
+    header {
+        padding: 20px;
+        background-size: cover;
     }
 
-    .tecnica, .teorica, .magisterio, .bachillerato, .salud {
-        width: 100%;
-        padding: 10px;
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-content h1 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
