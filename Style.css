@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 30px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
     width: 100%;
     height: auto;
     min-height: 150px;
@@ -284,5 +284,10 @@ html, body {
 
     footer {
         padding: 5px 0;
+    }
+
+    .tecnica, .teorica, .magisterio, .bachillerato, .salud {
+        width: 100%;
+        padding: 10px;
     }
 }
