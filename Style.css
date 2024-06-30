@@ -219,7 +219,7 @@ main {
 }
 
 footer {
-    background-image: url('fo.png');
+    background-image: url('foo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
