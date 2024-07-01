@@ -230,9 +230,9 @@ footer {
     color: #000000;
     text-align: center;
     padding: 40px 20;
-    width: 110%;
+    width: 100%;
     box-sizing: border-box;
-    height: 200%;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
