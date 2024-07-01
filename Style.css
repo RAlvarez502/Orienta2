@@ -149,7 +149,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 150px; /* Establece una altura mínima */
+    min-height: 150px;
 }
 
 #peritoContador {
@@ -228,7 +228,7 @@ footer {
     background-repeat: no-repeat;
     color: #000000;
     text-align: center;
-    padding: 40px 0;
+    padding: 50px 0;
     width: 100%;
     box-sizing: border-box;
 }
