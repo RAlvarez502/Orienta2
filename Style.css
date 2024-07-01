@@ -19,7 +19,7 @@ header {
     background-position: left;
     background-repeat: no-repeat;
     color: white;
-    padding: 100px;
+    padding: 10px;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -229,7 +229,7 @@ footer {
     background-repeat: no-repeat;
     color: #000000;
     text-align: center;
-    padding: 50px 0;
+    padding: 10px 0;
     width: 110%;
     box-sizing: border-box;
     height: 100px;
