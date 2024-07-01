@@ -229,7 +229,7 @@ footer {
     background-repeat: no-repeat;
     color: #000000;
     text-align: center;
-    padding: 100px 25;
+    padding: 100px 0;
     width: 100%;
     box-sizing: border-box;
 }
@@ -252,7 +252,7 @@ html, body {
 
 @media (max-width: 1200px) {
     header {
-        padding: 20px;
+        padding: 100px;
         background-size: cover; 
     }
 
@@ -277,7 +277,7 @@ html, body {
 
 @media (max-width: 768px) {
     header {
-        padding: 15px;
+        padding: 100px;
         background-size: cover;
         background-position: center;
     }
@@ -312,7 +312,7 @@ html, body {
 
 @media (max-width: 480px) {
     header {
-        padding: 10px;
+        padding: 100px;
         height: auto;
         min-height: 100px;
         background-size: cover;
