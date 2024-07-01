@@ -83,18 +83,16 @@ nav ul li a:hover {
 
 main {
     background-image: url('cuer.png');
-    background-size: contain; 
-    background-position: top; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
     flex: 1;
     padding: 20px;
-    background-color: #353535;
+    background-color: #353535;   
     width: 100%;
     box-sizing: border-box;
-    margin-top: 0;
-    position: relative;
-    min-height: 100vh;
+    margin-top: 0; 
+    position: relative; 
 }
 
 
