@@ -229,7 +229,7 @@ footer {
     background-repeat: no-repeat;
     color: #000000;
     text-align: center;
-    padding: 100px -25;
+    padding: 100px 25;
     width: 100%;
     box-sizing: border-box;
 }
