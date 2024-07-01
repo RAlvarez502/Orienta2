@@ -83,17 +83,20 @@ nav ul li a:hover {
 
 main {
     background-image: url('c.png');
-    background-size: cover;
-    background-position: center;
+    background-size: contain; 
+    background-position: top; 
     background-repeat: no-repeat;
+    background-attachment: scroll;
     flex: 1;
     padding: 20px;
-    background-color: #353535;   
+    background-color: #353535;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 0; 
-    position: relative; 
+    margin-top: 0;
+    position: relative;
+    min-height: 100vh;
 }
+
 
 .tecnica {
     background-color: rgba(12, 12, 12, 0.24); 
