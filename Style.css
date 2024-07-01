@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url('h.png');
+    background-image: url('E.png');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 main {
-    background-image: url('c.png');
+    background-image: url('cuer.png');
     background-size: contain; 
     background-position: top; 
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ main {
 }
 
 footer {
-    background-image: url('foo.png');
+    background-image: url('Foot.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
