@@ -227,12 +227,12 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
-    padding: 40px 0;
+    padding: 50px 0;
     width: 100%;
     box-sizing: border-box;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
