@@ -282,72 +282,23 @@ html, body {
 
 @media (max-width: 768px) {
     header {
-        padding: 100px;
-        background-size: cover;
-        background-position: center;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    header h1 {
-        font-size: 1rem;
+    header .logo {
+        max-width: 120px; 
+        margin-bottom: 10px; 
     }
 
-    .header-content {
-        flex-direction: row; 
-        justify-content: space-between;
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
 
-    .header-content h1 {
-        font-size: 1.2rem;
-        margin-bottom: 5px;
-    }
-
-    nav ul {
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    nav ul li {
-        margin: 5px 10px;
-    }
-
-    .carrera-box {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 100px;
-        height: auto;
-        min-height: 100px;
-        background-size: cover;
-    }
-
-    header h1 {
-        font-size: 0.8rem;
-    }
-
-    .header-content {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .header-content h1 {
-        font-size: 1rem;
-        margin-bottom: 5px;
-    }
-
-    nav ul {
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    nav ul li {
-        margin: 5px 5px;
-    }
-
-    .carrera-box {
-        width: calc(100% - 20px);
+    header nav a {
+        font-size: 0.9rem; 
     }
 }
 
