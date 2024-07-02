@@ -257,8 +257,8 @@ html, body {
 
 @media (max-width: 1200px) {
     header {
-        padding: 20px;
-        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+        padding: 100px;
+        background-size: cover;
     }
 
     header h1 {
@@ -266,7 +266,7 @@ html, body {
     }
 
     .header-content {
-        flex-direction: row; /* Mantener en una fila */
+        flex-direction: row; 
         justify-content: space-between;
     }
 
@@ -282,8 +282,8 @@ html, body {
 
 @media (max-width: 768px) {
     header {
-        padding: 15px;
-        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+        padding: 100px;
+        background-size: cover;
         background-position: center;
     }
 
@@ -292,7 +292,7 @@ html, body {
     }
 
     .header-content {
-        flex-direction: row; /* Mantener en una fila */
+        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -317,10 +317,10 @@ html, body {
 
 @media (max-width: 480px) {
     header {
-        padding: 10px;
+        padding: 100px;
         height: auto;
-        min-height: 100px; /* Ajusta la altura mínima para dispositivos pequeños */
-        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
+        min-height: 100px;
+        background-size: cover;
     }
 
     header h1 {
@@ -328,7 +328,7 @@ html, body {
     }
 
     .header-content {
-        flex-direction: row; /* Mantener en una fila */
+        flex-direction: row;
         justify-content: space-between;
     }
 
