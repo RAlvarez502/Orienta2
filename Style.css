@@ -42,6 +42,17 @@ header .logo {
     max-height: 120px;
 }
 
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
 .header-content {
     display: flex;
     align-items: center;
