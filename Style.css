@@ -14,17 +14,17 @@ body {
 }
 
 header {
-    background-image: url('e.png');
+    background-image: url('h.png');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
     color: white;
-    padding: 20px;
+    padding: 100px;
     text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #e1e4e8;
     width: 100%;
     height: auto;
     min-height: 150px;
@@ -40,17 +40,6 @@ header h1 {
 
 header .logo {
     max-height: 120px;
-}
-
-header nav {
-    display: flex;
-    gap: 20px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1rem;
 }
 
 .header-content {
@@ -82,14 +71,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #000000;
+    color: #0366d6;
 }
 
 main {
