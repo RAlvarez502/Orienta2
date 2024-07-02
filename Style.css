@@ -133,10 +133,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start; 
     width: 100%;
     box-sizing: border-box;
 }
-
+   
 .carrera-box {
     border: 5px solid #000000;
     border-radius: 20px;
