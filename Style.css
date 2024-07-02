@@ -268,8 +268,8 @@ html, body {
 
 @media (max-width: 1200px) {
     header {
-        padding: 100px;
-        background-size: cover;
+        padding: 20px;
+        background-size: cover; /* Ajusta la imagen de fondo para dispositivos más pequeños */
     }
 
     header h1 {
@@ -277,7 +277,7 @@ html, body {
     }
 
     .header-content {
-        flex-direction: row; 
+        flex-direction: row; /* Mantener en una fila */
         justify-content: space-between;
     }
 
@@ -293,7 +293,7 @@ html, body {
 
 @media (max-width: 768px) {
     header {
-        padding: 100px;
+        padding: 15px;
         background-size: cover;
         background-position: center;
     }
@@ -328,7 +328,7 @@ html, body {
 
 @media (max-width: 480px) {
     header {
-        padding: 100px;
+        padding: 10px;
         height: auto;
         min-height: 100px;
         background-size: cover;
@@ -356,14 +356,6 @@ html, body {
     nav ul li {
         margin: 5px 5px;
     }
-
-@media (max-width: 768px) {
-    .carrera-box {
-        width: calc(50% - 20px);
-        min-height: 150px;
-    }
-}
-
 @media (max-width: 480px) {
     .carrera-box {
         width: calc(100% - 20px);
