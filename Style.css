@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e1e4e8;
+    border-bottom: 1px solid #000000;
     width: 100%;
     height: auto;
     min-height: 150px;
@@ -78,7 +78,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #000000;
+    color: #0366d6;
 }
 
 main {
